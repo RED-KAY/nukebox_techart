@@ -69,12 +69,12 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
+    compressionQuality: 15
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -158,13 +158,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bells
+      name: bells_left
       rect:
         serializedVersion: 2
         x: 686
-        y: 323
-        width: 572
-        height: 346
+        y: 330
+        width: 238
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,9 +184,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 944
-        y: 72
+        y: 74
         width: 123
-        height: 183
+        height: 181
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,6 +197,28 @@ TextureImporter:
       bones: []
       spriteID: 8d4469609ce872240b382bd38261c6e2
       internalID: -2096435538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bells_right
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 329
+        width: 239
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d14e64a69c28234f9b8f6f25a33614c
+      internalID: 611804277
       vertices: []
       indices: 
       edges: []
@@ -217,7 +239,8 @@ TextureImporter:
     nameFileIdTable:
       alarm_clock: -561562028
       bell_hammer: -2096435538
-      bells: 1105249745
+      bells_left: 1105249745
+      bells_right: 611804277
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
